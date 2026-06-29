@@ -23,3 +23,25 @@ print(f"hello, {name} ")
 # capitalize the string 
 name= name.capitalize()
 print(f"hello, {name}")
+name= name.title()
+#Remove the whitespace and capitLIZE 
+name = name.strip().title()
+# there is another method which can do all of this in single line 
+name1 = input("what's your name ").strip().title()
+# now we slpil user  name into first name and second name 
+first, second  = name.split(" ")
+print(f"hello, {first}") 
+print(f"hello, {second}")
+#now going to the function we can create our own function also by using def ( or we say define)
+def hello():
+    print("hello")
+#or 
+def helloo(to):
+    print("hello, ", to)
+name = input("what's your name ")
+hello(name)
+#you can also asgin the defualt value to the argument 
+def helllo(to = "david"):
+    print("what's your name ", to)
+
+
