@@ -36,3 +36,4 @@ z = x / y
 print(z)
 #or for rounding of 
 print(f"{z:.2f}")
+#Now we are heading to function 
