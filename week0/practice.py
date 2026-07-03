@@ -44,4 +44,5 @@ hello(name)
 def helllo(to = "david"):
     print("what's your name ", to)
 
+# today is the hoilday so no work just learning the maths 
 
