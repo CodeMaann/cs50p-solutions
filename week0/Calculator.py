@@ -36,6 +36,11 @@ z = x / y
 print(z)
 #or for rounding of 
 print(f"{z:.2f}")
+#some substration 
+x = int(input("what's x "))
+y = int(input("What's y "))
+z= x - y
+print(z)
 #Now we are heading to function 
 
 #today is the break day but i am doing my regular commit 
