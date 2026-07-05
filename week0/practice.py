@@ -46,3 +46,15 @@ def helllo(to = "david"):
 
 # today is the hoilday so no work just learning the maths 
 
+# again start working
+def changing_the_text_with_emoji (text):
+    the_return_text = text.replace(":(", "🙁")
+    the_return_text = the_return_text.replace(":)", "🙂")
+    return the_return_text
+
+def main():
+    text = input()
+    print(changing_the_text_with_emoji(text))
+    
+main()
+
